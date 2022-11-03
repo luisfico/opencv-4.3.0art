@@ -131,7 +131,7 @@ CVAPI(double) cvGetWindowProperty(const char* name, int prop_id);
 
 #ifdef __cplusplus  // FIXIT remove in OpenCV 4.0
 /* Get window image rectangle coordinates, width and height */
-//CVAPI(cv::Rect)cvGetWindowImageRect(const char* name);
+//CVAPI(cv::Rect)cvGetWindowImageRect(const char* name);    //FIX problem for original opencv4.3.0
 #endif
 
 /* display image within window (highgui windows remember their content) */
